@@ -1,0 +1,27 @@
+[
+    {
+        "id": 2,
+        "sanpham": "Ipad",
+        "gia": "3999$"
+    },
+    {
+        "id": 3,
+        "sanpham": "Iphone",
+        "gia": "1999$"
+    },
+    {
+        "id": 4,
+        "sanpham": "Samsung",
+        "gia": "999$"
+    },
+    {
+        "id": 5,
+        "sanpham": "Huwei",
+        "gia": "799$"
+    },
+    {
+        "id": 6,
+        "sanpham": "Xiaomi",
+        "gia": "865$"
+    }
+]
