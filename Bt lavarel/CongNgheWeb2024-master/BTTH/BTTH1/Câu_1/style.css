@@ -1,0 +1,149 @@
+/* style.css */
+
+/* Thiết lập chung cho liên kết */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Hiệu ứng hover cho các liên kết trong menu */
+nav li a:hover {
+    color: teal;
+    background-color: rgb(0, 187, 255);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Logo phần header */
+.logo {
+    font-size: 24px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.logo a {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+/* Thiết lập cho header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 5px solid darkgreen;
+    background-color: #f4f4f4;
+}
+
+nav ul {
+    font-size: 18px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav li a {
+    font-weight: bold;
+}
+
+/* Thiết lập cho table */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+/* Nút thêm loại hoa */
+button {
+    background-color: chartreuse;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button a {
+    color: black;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: limegreen;
+}
+
+/* Footer */
+footer {
+    font-size: 16px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    border-top: 2px solid #ddd;
+    font-weight: bold;
+}
+
+/* Đảm bảo các phần tử trong header và footer luôn cách nhau hợp lý */
+footer, header {
+    margin: 0;
+}
+
+/* Responsive cho các màn hình nhỏ */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    img {
+        height: 80px;
+        width: 80px;
+    }
+}

@@ -1,0 +1,19 @@
+.p-3{
+    background-color: #f0f0f0;
+}
+.table-name{
+    background-color: #435d7d;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+.page-link{
+    border-style: none;
+    color:black;
+    cursor: pointer;
+}
+.act{
+    background-color: white;
+}
+
